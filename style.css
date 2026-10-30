@@ -1,0 +1,107 @@
+/* Pengaturan Umum Halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 20px;
+    color: #000000;
+}
+
+/* Header & Kotak Kutipan */
+#header {
+    background-color: #d2b48c; /* Warna latar cokelat muda */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#header h1 {
+    font-family: serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#header blockquote {
+    background-color: #7fff00; /* Warna hijau terang untuk kotak kutipan */
+    padding: 12px;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+#soekarno {
+    display: block;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+/* Menu Navigasi */
+.menu {
+    background-color: #d2b48c; /* Warna latar cokelat muda */
+    margin-top: 10px;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    color: #ffffff; /* Efek saat kursor diarahkan ke menu */
+}
+
+/* Bagian Gambar */
+.gambar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gambar img {
+    width: 45%;
+    max-width: 400px;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Konten Teks & Bagian Lainnya */
+.isi {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+#profil, #beternak, .promo {
+    margin-top: 25px;
+    line-height: 1.6;
+}
+
+.koleksi {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.koleksi img {
+    width: 20%;
+    max-width: 180px;
+    margin: 5px;
+    border-radius: 5px;
+}
